@@ -13,7 +13,7 @@
 #include <semaphore.h>
 #include <pthread.h>
 
-//EL EJERCICIO CONSISTE EN IMPRIMIR EN PANTALLA "ABBBCABBBCABBBC.....ABBBC"
+//EL EJERCICIO CONSISTE EN IMPRIMIR EN PANTALLA "ABBCABBCABBC.....ABBC"
 pthread_t a,b,c;
 sem_t sem_a, sem_b,sem_c,sem_x;
 void my_print_a(){
